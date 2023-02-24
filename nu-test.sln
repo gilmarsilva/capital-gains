@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35EE816A-4884-491D-B36C-07ACC8DE39F8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitpod.Dockerfile = .gitpod.Dockerfile
+		.gitpod.yml = .gitpod.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "before", "before", "{FE7F20E7-4914-4CD7-98DF-C6E9CD18B2ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "after", "after", "{82EF9FCD-88A8-48DA-ACA4-B10AB72499AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "before\ConsoleApp\ConsoleApp.csproj", "{4FF4569F-797D-468A-9BE4-8B83AC753C2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.Tests", "before\ConsoleApp.Tests\ConsoleApp.Tests.csproj", "{E20A9886-9A7C-4A9F-9A8C-C229185F993F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalGains", "after\CapitalGains\CapitalGains.csproj", "{8C2F6B46-9E64-4415-AF40-85BF27430CB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapitalGains.Tests", "after\CapitalGains.Tests\CapitalGains.Tests.csproj", "{01F9FDF2-DF8B-4528-9764-1A644655E14B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FF4569F-797D-468A-9BE4-8B83AC753C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF4569F-797D-468A-9BE4-8B83AC753C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF4569F-797D-468A-9BE4-8B83AC753C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF4569F-797D-468A-9BE4-8B83AC753C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20A9886-9A7C-4A9F-9A8C-C229185F993F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20A9886-9A7C-4A9F-9A8C-C229185F993F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20A9886-9A7C-4A9F-9A8C-C229185F993F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20A9886-9A7C-4A9F-9A8C-C229185F993F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2F6B46-9E64-4415-AF40-85BF27430CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2F6B46-9E64-4415-AF40-85BF27430CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2F6B46-9E64-4415-AF40-85BF27430CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2F6B46-9E64-4415-AF40-85BF27430CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F9FDF2-DF8B-4528-9764-1A644655E14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F9FDF2-DF8B-4528-9764-1A644655E14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F9FDF2-DF8B-4528-9764-1A644655E14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F9FDF2-DF8B-4528-9764-1A644655E14B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FF4569F-797D-468A-9BE4-8B83AC753C2C} = {FE7F20E7-4914-4CD7-98DF-C6E9CD18B2ED}
+		{E20A9886-9A7C-4A9F-9A8C-C229185F993F} = {FE7F20E7-4914-4CD7-98DF-C6E9CD18B2ED}
+		{8C2F6B46-9E64-4415-AF40-85BF27430CB5} = {82EF9FCD-88A8-48DA-ACA4-B10AB72499AD}
+		{01F9FDF2-DF8B-4528-9764-1A644655E14B} = {82EF9FCD-88A8-48DA-ACA4-B10AB72499AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D62CCFF-53E9-4AC0-BE88-750C1813CD2B}
+	EndGlobalSection
+EndGlobal
